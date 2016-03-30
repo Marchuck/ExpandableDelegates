@@ -107,7 +107,9 @@ public class ExpandableBuilder {
         mRecyclerViewExpandableItemManager.scrollToGroupWithTotalChildrenHeight(groupPosition, totalChildrenHeight, topMargin, bottomMargin);
     }
 
-
+    /**
+     * Builds
+     */
     public void build() {
         if (context == null || mRecyclerView == null || myItemAdapter == null)
             throw new NullPointerException("Nullable value detected");
@@ -145,4 +147,13 @@ public class ExpandableBuilder {
         mRecyclerView.setHasFixedSize(false);
         mRecyclerViewExpandableItemManager.attachRecyclerView(mRecyclerView);
     }
+
+    public void onDestroy() {
+        mRecyclerViewExpandableItemManager.release();
+        mRecyclerViewExpandableItemManager = null;
+        myItemAdapter =null;
+        mRecyclerView = null;
+        groupClickListener = null;
+    }
+
 }
