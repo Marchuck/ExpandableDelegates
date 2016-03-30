@@ -4,6 +4,12 @@
 # ExpandableDelegates
 more convenient way to add multiple delegates to your expandable recyclerView! 
 
+```groovy
+new ExpandableBuilder(this)
+                .withAdapter(createAdapter())
+                .withRecyclerView(recyclerView)
+                .build();
+```
 #Usage
 
 Look at master branch. Code at MainActivity.class will help you.
