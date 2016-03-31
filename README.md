@@ -10,6 +10,26 @@ new ExpandableBuilder(this)
                 .withRecyclerView(recyclerView)
                 .build();
 ```
+#Install
+```groovy
+  allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+And also
+
+```groovy
+  dependencies {
+	        compile ('com.github.Marchuck:ExpandableDelegates:v1.0.0'){
+	            transitive = true
+	        }
+	}
+```
+
 #Usage
 
 Look at master branch. Code at MainActivity.class will help you.
