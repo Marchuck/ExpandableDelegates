@@ -35,7 +35,7 @@ And also
 
 Look at master branch. Code at MainActivity.class will help you.
 
-If you have applied this library in your project, contact me, I'll add it to list.
+If you have applied this library in your project, contact me, I will add it to the following list:
 
 #Projects using this library:
 
