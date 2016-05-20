@@ -53,7 +53,7 @@ This wrapper/library was created by Paweł Próchniak and Łukasz Marczak based 
 This library is licensed under the Apache Software License, Version 2.0.
 
 
-Copyright (C) 2015 Łukasz Marzak, Paweł Próchniak
+Copyright (C) 2015 Łukasz Marczak, Paweł Próchniak
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
