@@ -37,13 +37,16 @@ Look at master branch. Code at MainActivity.class will help you.
 
 If you have applied this library in your project, contact me, I'll add it to list.
 
-#Project using this library:
+#Projects using this library:
 
-Brera Smart City
+[Brera Smart District](https://play.google.com/store/apps/details?id=com.comarch.smartcitymilan)
+
+[Be Connected, Be Málaga!](https://play.google.com/store/apps/details?id=com.comarch.smartcity.malaga)
+
 
 #Authors
 
-This wrapper/library was created by Paweł Próchniak and Łukasz Marczak
+This wrapper/library was created by Paweł Próchniak and Łukasz Marczak based on library created by Haruki Hasegawa, who creted [this library](https://github.com/h6ah4i/android-advancedrecyclerview). Thank you!
 
 
 #License
