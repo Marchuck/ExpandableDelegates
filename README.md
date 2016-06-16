@@ -1,6 +1,5 @@
 
-[![](https://jitpack.io/v/Marchuck/ExpandableDelegates.svg)](https://jitpack.io/#Marchuck/ExpandableDelegates)
-
+[![](https://img.shields.io/badge/Android%20Arsenal-ExpandableDelegates-green.svg?style=true)](https://android-arsenal.com/details/1/3731)
 # ExpandableDelegates
 more convenient way to add multiple delegates to your expandable recyclerView! 
 
