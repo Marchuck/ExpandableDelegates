@@ -4,6 +4,11 @@
 more convenient way to add multiple delegates to your expandable recyclerView! 
 
 
+<img src="https://github.com/Marchuck/IdentityCrawler/blob/master/screenshot_2.png" height="350"> 
+<img src="https://github.com/Marchuck/IdentityCrawler/blob/master/screenshot_1.png" height="350"> 
+
+
+
 ```groovy
 new ExpandableBuilder(this)
                 .withAdapter(createAdapter())
